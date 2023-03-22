@@ -1,0 +1,119 @@
+.header{
+    position: absolute;
+    width:100%;
+    top:2rem;
+    z-index: 2;
+    
+     
+}
+.header .navbar{
+    
+    background:url("./images/header-bg.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+.header .navbar-brand{
+    width:7.5rem;
+    margin-left: 10px;
+    
+}
+.header .navbar-nav .nav-link{
+    color: aliceblue;
+    
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+.header .navbar-nav .nav-link:hover{
+    color:green;
+}
+.header .navbar-toggler{
+    color:white;
+    font-size:2rem;
+    height:2.7rem;
+
+}
+.header .header-right span{
+    color:green;
+    display: block;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-right:1rem;
+}
+.header .header-right .phone-no{
+    color:white;
+}
+
+.banner-section{
+    background:url("./images/banner-slide/Banner-1.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 90vh; 
+}
+.banner-section .carousel-item{
+    padding:3rem;
+    height:90vh;
+}
+.card-ft img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    border:1px solid lightgreen ;
+    background-color: lightgreen;
+    
+}
+.card-ft{
+
+    align-items: center;
+    padding: 2rem;
+    border: none;
+    text-align: center;
+
+}
+.card-text{
+    
+    font-weight: 900;
+
+}
+.card-ft:hover{
+    background-color: #000924;
+    color: white;
+    
+}
+.about-section{
+    background: url(./images/about/about-banner.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10rem 0rem;
+    
+}
+.pr-btn{
+    padding:1rem 4rem;
+}
+.card-pr h3{
+    color: #000924;
+    font-weight: 900;
+}
+.card-pr span{
+    color: lightgreen;
+}
+ .footer-banner{
+
+    background: url("./images/footer-bg/footer_bg.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10rem 0rem;
+
+}
+.footer-btn{
+    background-color: forestgreen;
+    color:white;
+}
+.footer-icons{
+    cursor: pointer;
+}
